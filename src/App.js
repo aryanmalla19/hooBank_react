@@ -6,7 +6,8 @@ import {
   Testimonials,
   Clients,
   CTA,
-  Footer
+  Footer,
+  CardDeal
 } from './components';
 import styles from "./style"
 const App = () => (
@@ -28,6 +29,7 @@ const App = () => (
         <Stats />
         <Business />
         <Billing />
+        <CardDeal/>
         <Testimonials />
         <Clients />
         <CTA />
